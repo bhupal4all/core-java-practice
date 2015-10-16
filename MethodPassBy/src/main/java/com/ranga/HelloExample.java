@@ -19,7 +19,7 @@ public class HelloExample{
 	* prmitive data type will be passed by value
 	* custom classes would be passed by reference
 	*/
-	private void runMe(String parameter, int val, CustDataType data){
+	public void runMe(String parameter, int val, CustDataType data){
 		parameter = parameter + " changed ";
 		val = val * 10;
 		

@@ -14,7 +14,12 @@
 	</properties>
 
 	<dependencies>
-
+		<dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>4.11</version>
+		  <scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -39,19 +44,20 @@
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
-	<plugin>
-      <artifactId>maven-assembly-plugin</artifactId>
-      <configuration>
-        <archive>
-          <manifest>
-            <mainClass>com.ranga.HelloExample</mainClass>
-          </manifest>
-        </archive>
-        <descriptorRefs>
-          <descriptorRef>jar-with-dependencies</descriptorRef>
-        </descriptorRefs>
-      </configuration>
-    </plugin>
+
+			<plugin>
+			  <artifactId>maven-assembly-plugin</artifactId>
+			  <configuration>
+				<archive>
+				  <manifest>
+					<mainClass>com.ranga.HelloExample</mainClass>
+				  </manifest>
+				</archive>
+				<descriptorRefs>
+				  <descriptorRef>jar-with-dependencies</descriptorRef>
+				</descriptorRefs>
+			  </configuration>
+			</plugin>
 	</plugins>
 	</build>
 </project>
