@@ -6,8 +6,8 @@
   <packaging>pom</packaging>
 
   <modules>
-<!--
 	<module>Java Reflection</module>
+<!--
 	<module>Java Simple Annotation</module>
 -->
 	<module>Log4j</module>
