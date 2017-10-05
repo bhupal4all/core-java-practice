@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.junit.Before;
 
-public class AppTest {	
+public class MethodByPassTest {	
    @Test
    public void test1() {
       com.ranga.HelloExample obj = new com.ranga.HelloExample();
