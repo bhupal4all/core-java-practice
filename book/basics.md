@@ -69,6 +69,9 @@ System.out.println(i); // ERROR- variable NOT initialized
 * If you add `import static java.lang.Math.*`, we could use the functions directly like `sqrt(64)` instead of `java.lang.Math.sqrt(64)`
 
 #### Type Conversions b/w Numeric
+![Numeric Conversions Image](./numeric-conversion.jpg "Numeric Conversions")
+* dashed lines means information would be lost during conversion
+
 ```java
 int n = 123456789;
 float f = n; // f is 1.23456792E8
