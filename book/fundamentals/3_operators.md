@@ -88,9 +88,9 @@ Level |	Operator | Associativity
 8 | `==` `!=` | left to right
 7 | `&`  bitwise AND | left to right
 6 | `^`  bitwise XOR | left to right
-5 | `|`  bitwise OR | left to right
+5 | `&#124;`  bitwise OR | left to right
 4 | `&&`  logical AND | left to right
-3 | `||`  logical OR | left to right
+3 | `&#124;&#124;`  logical OR | left to right
 2 | `?:`  ternary | right to left
 1 | `=` `+=` `-=` `*=` `/=` `%=` `&=` `^=` `|=`  `<<=`  `>>=` `>>>=` | right to left
 
